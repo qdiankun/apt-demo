@@ -9,7 +9,7 @@ import android.view.View;
  * CSDN:    http://blog.csdn.net/u013045971
  * Github:  https://github.com/gumingwei
  */
-public class ActivityFinder implements Finder {
+public class ActivityFInder implements Finder {
     @Override
     public Context getContext(Object source) {
         return (Activity) source;

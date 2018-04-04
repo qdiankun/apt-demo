@@ -3,7 +3,7 @@ package com.mingwei.myapi;
 import android.app.Activity;
 import android.view.View;
 
-import com.mingwei.myapi.finder.ActivityFinder;
+import com.mingwei.myapi.finder.ActivityFInder;
 import com.mingwei.myapi.finder.Finder;
 import com.mingwei.myapi.finder.ViewFinder;
 
@@ -21,7 +21,7 @@ public class ButterKnife {
         throw new AssertionError("No .instances");
     }
 
-    private static final ActivityFinder ACTIVITY_FINDER = new ActivityFinder();
+    private static final ActivityFInder ACTIVITY_FINDER = new ActivityFInder();
 
     private static final ViewFinder VIEW_FINDER = new ViewFinder();
 
